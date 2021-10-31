@@ -442,6 +442,7 @@ img.pull-left {
  * pace.js styles - minimal  - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
+
  @media (min-width: 728px) {
     .offcanvas-end{
    width:40% !important;
