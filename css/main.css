@@ -442,6 +442,18 @@ img.pull-left {
  * pace.js styles - minimal  - (_document-setup.scss)
  * -------------------------------------------------------------------
  */
+ @media (min-width: 728px) {
+    .offcanvas-end{
+   width:40% !important;
+ }
+ }
+  @media (ṁax-width: 728px) {
+    .offcanvas-end{
+   width:100% !important;
+ }
+ }
+
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -1381,7 +1393,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-  background: #151515 url("https://aryan-singh.herokuapp.com/stylesheets/images/background.jpg") no-repeat center bottom;
+  background: #151515 url("../images/background.jpg") no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
