@@ -35,7 +35,18 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
-
+<style>
+	button.accordion-button.collapsed{
+		height:100%;
+		padding: auto;
+		margin: auto;
+	}
+	button-accordion-button{
+		height:100%;
+		padding: auto;
+		margin: auto;
+	}
+</style>
 <body id="top">
 
 	<!-- header 
@@ -431,72 +442,81 @@
 	   			</div> <!-- /timeline-block -->
 
 
-				   <div class="timeline-block">
+
+
+
+
+
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-briefcase"></i>
 	   				</div>
 
-	   				<div class="timeline-header">
+		   				<div class="timeline-header">
 	   					<h3>Online Course and certifications</h3>
 	   					<p>Udemy</p>
 	   				</div>
 
+	   				<div class="timeline-content">
+								<div class="accordion" id="accordionExample">
 
-					   <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-         
-					<!-- <div class="timeline-content"> -->
-	   					<h4>
-								Complete Python Bootcamp
-						    </h4>
-	   				<!-- </div>  -->
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"><img src="images/certificates/python.jpg"/></div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-       	   				<!-- <div class="timeline-content"> -->
-	   					<h4>
-								The Complete 2022 Web Development Bootcamp
-						    </h4>
-	   				<!-- </div>	 -->
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"><img src="images/certificates/mern.jpg"/></div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        					   					<!-- <div class="timeline-content"> -->
-	   					<h4>
-								React - The Complete React Guide
-						    </h4>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+																			Complete Python Bootcamp
 
-	   				<!-- </div> 	 -->
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"><img src="images/certificates/React.jpg"/></div>
-    </div>
-  </div>
+										</button>
+										</h2>
+										<div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+<img src="images/certificates/python.jpg"/>
+										</div>
+										</div>
+									</div>
+
+																		<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne2">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
+																									The Complete 2022 Web<br> Development Bootcamp
+
+
+										</button>
+										</h2>
+										<div id="collapseOne2" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+<img src="images/certificates/mern.jpg"/>
+										</div>
+										</div>
+									</div>
+
+									</div>
+
+																		<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne3">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne">
+																													React - The Complete <br> React Guide
+
+
+
+										</button>
+										</h2>
+										<div id="collapseOne3" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+<img src="images/certificates/React.jpg"/>
+										</div>
+										</div>
+									</div>
 					   <p>       ... Many More in progress</p>
 
-</div>
- 	
+									</div>
 
+ </div> <!-- /timeline-block -->
 
-	   			</div> <!-- /timeline-block -->
-
-	   			<!-- <div class="timeline-block">
+	   			 <div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-briefcase"></i>
@@ -512,7 +532,7 @@
 	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
 	   				</div>
 
-	   			</div> /timeline-block -->
+	   			</div> /timeline-block --> -->
 
    			</div> <!-- /timeline-wrap -->   			
 
