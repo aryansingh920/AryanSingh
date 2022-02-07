@@ -59,7 +59,7 @@
 		margin: auto;
 	}
 </style>
-<body id="top">
+<body onresize="myFunction()" id="top">
 
 	<!-- header 
    ================================================== -->
@@ -1382,10 +1382,11 @@
    		</div> 
    	</div> <!-- /section-intro -->
 
+
    	<div class="row contact-form">
 
    		<div class="col-twelve">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrXbdtAip0OnamoHU5c0BxGmzMEUacqdsuBxAwMZaDsQG8zA/viewform?embedded=true" width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			<iframe id="gForm" src="https://docs.google.com/forms/d/e/1FAIpQLScrXbdtAip0OnamoHU5c0BxGmzMEUacqdsuBxAwMZaDsQG8zA/viewform?embedded=true" width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <!-- form -->
             <!-- <form name="contactForm" id="contactForm" method="post" action="">
       			<fieldset>
@@ -1539,6 +1540,30 @@
    ================================================== --> 
    
 <!-- UIkit JS -->
+<script>
+	function myFunction() {
+		console.log("hello");
+		const form = document.getElementById("gForm");
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		console.log(w,h)
+		if(w>660){
+			form.style.width = "640";
+			form.style.height = "819";
+		}
+		else{
+			form.style.width = w-100+"px";
+			form.style.height = "819";
+		}
+		
+		// var x = document.getElementById("myTopnav");
+		// if (x.className === "topnav") {
+		// 	x.className += " responsive";
+		// } else {
+		// 	x.className = "topnav";
+		// }
+	}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
