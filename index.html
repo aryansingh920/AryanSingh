@@ -1,411 +1,443 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 
-   <!--- basic page needs
+	<!--- basic page needs
    ================================================== -->
-   <meta charset="utf-8">
+	<meta charset="utf-8">
 	<title>| Aryan Singh |</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- mobile specific metas
+	<!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- 	<!-- CSS
+	<!-- CSS
    ================================================== -->
-   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-   <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css" />
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css" />
 
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
 
-   <!-- script
-   ================================================== -->   
+	<!-- script
+   ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
 
-   <!-- favicons
+	<!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 </head>
 <style>
-	a:hover{
+	a:hover {
 		text-decoration: none;
 		font-style: none;
 		color: #7a7c83;
 	}
-	
-	button{
+
+	button {
 		height: auto !important;
 	}
-	button.accordion-button.collapsed{
-		height:100%;
+
+	button.accordion-button.collapsed {
+		height: 100%;
 		padding: auto;
 		margin: auto;
 	}
-	button-accordion-button{
-		height:100%;
+
+	button-accordion-button {
+		height: 100%;
 		padding: auto;
 		margin: auto;
 	}
 </style>
+
 <body onresize="myFunction()" id="top">
 
 	<!-- header 
    ================================================== -->
-   <header> 
-	  	
-   	<div class="navbar ">
+	<header>
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+		<div class="navbar ">
 
-	   		<div class="logo">
-		         
-		      </div>		      
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-		   	<nav id="main-nav-wrap">
+				<div class="logo">
+
+				</div>
+
+				<nav id="main-nav-wrap">
 					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
 						<!-- <li><a href="styles.html" title="">Style Demo</a></li>				 -->
 					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
 	<!-- intro section
    ================================================== -->
-   <section id="intro">   
+	<section id="intro">
 
-   	<div class="intro-overlay"></div>	
+		<div class="intro-overlay"></div>
 
-   	<div class="intro-content">
-   		<div class="row">
-   			<div class="col-twelve">
-				<script>
-				var i = 0;
-				var txt = "I'm Aryan Singh .";
-				var speed = 140;
+		<div class="intro-content">
+			<div class="row">
+				<div class="col-twelve">
+					<script>
+						var i = 0;
+						var txt = "I'm Aryan Singh .";
+						var speed = 140;
 
-				function typeWriter() {
-					if (i < txt.length) {
-						document.getElementById("demo").innerHTML += txt.charAt(i);
-						i++;
-						setTimeout(typeWriter, speed);
-					}
-				}
-				window.addEventListener("load",()=>{
-					setTimeout(function(){ typeWriter(); }, 2000);
-				});
+						function typeWriter() {
+							if (i < txt.length) {
+								document.getElementById("demo").innerHTML += txt.charAt(i);
+								i++;
+								setTimeout(typeWriter, speed);
+							}
+						}
+						window.addEventListener("load", () => {
+							setTimeout(function () {
+								typeWriter();
+							}, 2000);
+						});
 
-				var k = 0;
-				var txta1 = '| Full Stack Developer | Programmer , Engineer \n | Animation , Graphic Designer |';
-				var speedq1 = 50;
+						var k = 0;
+						var txta1 = '| Full Stack Developer | Programmer , Engineer \n | Animation , Graphic Designer |';
+						var speedq1 = 50;
 
-				function typeWritera1() {
-					if (k < txta1.length) {
-						document.getElementById("a1").innerHTML += txta1.charAt(k);
-						k++;
-						setTimeout(typeWritera1, speedq1);
-					}
-				}
-				window.addEventListener("load",()=>{
-					setTimeout(function(){ typeWritera1(); }, 2000);
-				});
+						function typeWritera1() {
+							if (k < txta1.length) {
+								document.getElementById("a1").innerHTML += txta1.charAt(k);
+								k++;
+								setTimeout(typeWritera1, speedq1);
+							}
+						}
+						window.addEventListener("load", () => {
+							setTimeout(function () {
+								typeWritera1();
+							}, 2000);
+						});
 
 
-				var j = 0;
-				var txt1 = "{ Hello World }";
-				var speed1 = 100;
+						var j = 0;
+						var txt1 = "{ Hello World }";
+						var speed1 = 100;
 
-				function typeWriter1() {
-					if (j < txt1.length) {
-						document.getElementById("demo1").innerHTML += txt1.charAt(j);
-						j++;
-						setTimeout(typeWriter1, speed1);
-					}
-				}
-				window.addEventListener("load",()=>{
-					setTimeout(function(){ typeWriter1(); }, 1500);
-				});
-				</script>
+						function typeWriter1() {
+							if (j < txt1.length) {
+								document.getElementById("demo1").innerHTML += txt1.charAt(j);
+								j++;
+								setTimeout(typeWriter1, speed1);
+							}
+						}
+						window.addEventListener("load", () => {
+							setTimeout(function () {
+								typeWriter1();
+							}, 1500);
+						});
+					</script>
 					<h5 id="demo1" style="color:#7a7c83;text-transform: uppercase;"></h5>
 					<h1 id="demo"></h1>
-	   			<p id="a1" class="intro-position">
-	   				<!-- <span id="a1">Full Stack Developer</span>
+					<p id="a1" class="intro-position">
+						<!-- <span id="a1">Full Stack Developer</span>
 					<span id="a2">Programmer , Engineer</span>
 					<br>
 	   				<span id="a3">Animation , Graphic Designer</span>  -->
-	   			</p>
-	   			<a class="button stroke smoothscroll" href="#about" >More About Me </a>
+					</p>
+					<a class="button stroke smoothscroll" href="#about">More About Me </a>
 
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
+				</div>
 
-   	<ul class="intro-social">        
-         <li><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; " class="fad fa-envelope "></i></a></li>
-         <li><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i style="font-size: 4.5rem; " class="fab fa-linkedin-in "></i></a></li>
-         <li><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; " class="fab fa-medium-m "></i></a></li>
-         <li><a href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li>
-         <li><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; " class="fab fa-github"></i></a></li>
-      </ul> <!-- /intro-social -->      	
+			</div>
+		</div> <!-- /intro-content -->
 
-   </section> <!-- /intro -->
+		<ul class="intro-social">
+			<li><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; "
+						class="fad fa-envelope "></i></a></li>
+			<li><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i style="font-size: 4.5rem; "
+						class="fab fa-linkedin-in "></i></a></li>
+			<li><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; "
+						class="fab fa-medium-m "></i></a></li>
+			<li><a href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i
+						style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li>
+			<li><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; " class="fab fa-github"></i></a>
+			</li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
 
 
-   <!-- about section
+	<!-- about section
    ================================================== -->
-   <section id="about">  
+	<section id="about">
 
-   	<div class="row section-intro">
-   		<div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
 
-   			<div class="intro-info">
+				<div class="intro-info">
 
-   				<img src="profile.jpeg" alt="Profile Picture">
+					<img src="profile.jpeg" alt="Profile Picture">
 
-   				<p class="lead">
-					   Hi , I am Aryan , I am a Programmer and an engineer , I also do Photoshop , After Effects and Cinema4D , Therefore you can also call me an Editor and designer , Computers , Maths , Science , Economics are my favorite subjects , I like reasoning and questioning everything , I play volleyball and football , Apart from this I do like to play guitar and dance , and love to drive ! 
-				   </p>
-   			</div>   			
+					<p class="lead">
+						Hi , I am Aryan , I am a Programmer and an engineer , I also do Photoshop , After Effects and
+						Cinema4D , Therefore you can also call me an Editor and designer , Computers , Maths , Science ,
+						Economics are my favorite subjects , I like reasoning and questioning everything , I play
+						volleyball and football , Apart from this I do like to play guitar and dance , and love to drive
+						!
+					</p>
+				</div>
 
-   		</div>   		
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   	<div class="row about-content">
+		<div class="row about-content">
 
-   		<div class="col-six tab-full">
+			<div class="col-six tab-full">
 
-   			<h3>Profile</h3>
-   			<p> 
-					   I am a MERN full stack developer , I can work with front end as well as backend and database development , apart from this I know Python , Java and C , C++ , I've completed my bootcamp courses recently hence my skills are fresh and I work with the latest versions of all
-				    </p>
+				<h3>Profile</h3>
+				<p>
+					I am a MERN full stack developer , I can work with front end as well as backend and database
+					development , apart from this I know Python , Java and C , C++ , I've completed my bootcamp courses
+					recently hence my skills are fresh and I work with the latest versions of all
+				</p>
 
-   			<ul class="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Aryan Singh</span>
-   				</li>
-   				<li>
-   					<strong>Birth:</strong>
-   					<span>2002</span>
-   				</li>
-   				<li>
-   					<strong>Job:</strong>
-   					<span>Full Stack Developer , Engineer</span>
-   				</li>
-   				<li>
-   					<strong>Website:</strong>
-   					<span>https://aryansingh920.github.io/AryanSingh/</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>aryansingh920@outlook.com</span>
-   				</li>
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Aryan Singh</span>
+					</li>
+					<li>
+						<strong>Birth:</strong>
+						<span>2002</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Full Stack Developer , Engineer</span>
+					</li>
+					<li>
+						<strong>Website:</strong>
+						<span>https://aryansingh920.github.io/AryanSingh/</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>aryansingh920@outlook.com</span>
+					</li>
 
-   			</ul> <!-- /info-list -->
+				</ul> <!-- /info-list -->
 
-   		</div>
+			</div>
 
-   		<div class="col-six tab-full">
+			<div class="col-six tab-full">
 
-   			<h3>Skills</h3>
-   			<p>I love developing , therefore my skills major portion includes Web development stuffs , Apart from this I do like Python , Machine Learning , Java , C++ , Data Structures , Refer my CV for full information :-)</p>
+				<h3>Skills</h3>
+				<p>I love developing , therefore my skills major portion includes Web development stuffs , Apart from
+					this I do like Python , Machine Learning , Java , C++ , Data Structures , Refer my CV for full
+					information :-)</p>
 
 				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML , CSS & JS</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>Node.js & Express.js</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>MongoDB</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent95"><span>95%</span></div>
-				   	<strong>Python</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>80%</span></div>
-				   	<strong>Java</strong>
-				   </li>
-				   	<li>
-				   	<div class="progress percent60"><span>60%</span></div>
-				   	<strong>C & C++</strong>
-				   </li>
-				   	<li>
-				   	<div class="progress percent15"><span>15%</span></div>
-				   	<strong >ML</strong>
-				   </li>
-				   				   <li>
-				   	<div class="progress percent50"><span>50%</span></div>
-				   	<strong>DSA</strong>
-				   </li>
-      
-				</ul> <!-- /skill-bars -->		
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>HTML , CSS & JS</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Node.js & Express.js</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>MongoDB</strong>
+					</li>
+					<li>
+						<div class="progress percent95"><span>95%</span></div>
+						<strong>Python</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Java</strong>
+					</li>
+					<li>
+						<div class="progress percent60"><span>60%</span></div>
+						<strong>C & C++</strong>
+					</li>
+					<li>
+						<div class="progress percent15"><span>15%</span></div>
+						<strong>ML</strong>
+					</li>
+					<li>
+						<div class="progress percent50"><span>50%</span></div>
+						<strong>DSA</strong>
+					</li>
 
-   		</div>
+				</ul> <!-- /skill-bars -->
 
-   	</div>
+			</div>
 
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact/Hire Me</a>
-   			<!-- <a download="cv_AryanResume.pdf" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="#" title="Download CV" class="button button-primary">Download CV</a> -->
-   			<a   href="#cv" uk-toggle class="button button-primary">Download CV</a>
-   		</div>   		
-   	</div>
+		</div>
 
-   </section> <!-- /process-->    
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact/Hire Me</a>
+				<!-- <a download="cv_AryanResume.pdf" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="#" title="Download CV" class="button button-primary">Download CV</a> -->
+				<a href="#cv" uk-toggle class="button button-primary">Download CV</a>
+			</div>
+		</div>
 
-
-
-
-   <div id="cv" uk-modal>
-    <div class="uk-modal-dialog">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Resume</h2>
-        </div>
-        <div class="uk-modal-body">
-			<iframe
-			
-    src="https://www.dropbox.com/s/c6r4p36a30kh9ze/cv.pdf?raw=1"
-    frameBorder="0"
-    scrolling="auto"
-    height="350"
-    width="100%"
-></iframe>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
-        </div>
-        <div class="uk-modal-footer uk-text-right">
-            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
-            <a href="https://www.dropbox.com/s/c6r4p36a30kh9ze/cv.pdf?raw=1" target="_blank" download class="uk-button uk-button-primary" type="button">Download</a>
-        </div>
-    </div>
-</div>
+	</section> <!-- /process-->
 
 
 
 
-   <!-- resume canvas -->
-   	<!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"> -->
-  <!-- <div class="offcanvas-header"> -->
-    <!-- <h5 id="offcanvasRightLabel">Resume / CV</h5> -->
+	<div id="cv" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<div class="uk-modal-header">
+				<h2 class="uk-modal-title">Resume</h2>
+			</div>
+			<div class="uk-modal-body">
+				<iframe src="https://www.dropbox.com/s/c6r4p36a30kh9ze/cv.pdf?raw=1" frameBorder="0" scrolling="auto"
+					height="350" width="100%"></iframe>
+				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+			</div>
+			<div class="uk-modal-footer uk-text-right">
+				<button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+				<a href="https://www.dropbox.com/s/c6r4p36a30kh9ze/cv.pdf?raw=1" target="_blank" download
+					class="uk-button uk-button-primary" type="button">Download</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- resume canvas -->
+	<!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"> -->
+	<!-- <div class="offcanvas-header"> -->
+	<!-- <h5 id="offcanvasRightLabel">Resume / CV</h5> -->
 	<!-- <div id="selection">
 
 	</div> -->
-    <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
-  <!-- </div> -->
-  <!-- <div class="offcanvas-body"> -->
-    <!-- <embed src="cv.pdf" width="100%" height="100%" /> -->
+	<!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+	<!-- </div> -->
+	<!-- <div class="offcanvas-body"> -->
+	<!-- <embed src="cv.pdf" width="100%" height="100%" /> -->
 	<!-- <a href="cv.pdf" ></a> -->
-  <!-- </div> -->
-<!-- </div> -->
-<script>
-	// console.log(window.screen);
-</script>
-   <!-- resume canvas -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<script>
+		// console.log(window.screen);
+	</script>
+	<!-- resume canvas -->
 
-   <!-- resume Section
+	<!-- resume Section
    ================================================== -->
 	<section id="resume" class="grey-section">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
 
-   			<p class="lead">The Following includes all my education and the bootcamp courses and my project experiences</p>
+				<p class="lead">The Following includes all my education and the bootcamp courses and my project
+					experiences</p>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row resume-timeline">
+		<div class="row resume-timeline">
 
-   		<div class="col-twelve resume-header">
+			<div class="col-twelve resume-header">
 
-   			<h2>Work Experience</h2>
+				<h2>Work Experience</h2>
 
-   		</div> <!-- /resume-header -->
+			</div> <!-- /resume-header -->
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<div class="timeline-wrap">
+				<div class="timeline-wrap">
 
-   				<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<img src="images/zigy.png"  alt="">
-	   				</div>
+						<div class="timeline-ico">
+							<img src="images/zigy.png" alt="">
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Chief Technology Officer</h3>
-	   					<p>March 2021 - Present</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Chief Technology Officer</h3>
+							<p>March 2021 - Present</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4><u><a style="color: #7b8ee6;" target="_blank" href="https://www.zigy.in">Zigy.in</a></u></h4>
-	   					<p>It is a custom apparel merchandise Indian startup , I am amongst one of the 3 co-founder , The whole page was initially designed by me and , now we have interns under me updating the page constantly .</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Event Head ( Technical Dept. )</h3>
-	   					<p>2019</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>
-							   <u>
-								   <a target="_blank" href="https://instagram.com/azionare_loyola?utm_medium=copy_link"> Azionare </a>
-								</u> & 
-								<u>
-									<a target="_blank" href="https://instagram.com/etrix2019?utm_medium=copy_link"> Etrix </a>
-								</u>  ( Loyola School jsr )
+						<div class="timeline-content">
+							<h4><u><a style="color: #7b8ee6;" target="_blank" href="https://www.zigy.in">Zigy.in</a></u>
 							</h4>
-	   					<p>
-							   Azionare is an Inter School Cultural Event organized by Loyola School , Etrix is an intra school Tech Fest organized by Loyola School ,  I and my team with me as the head , being the director of Computer Club of Loyola School had the incharge of handling the technical department of the event like designing posters brochures , editing videos , the instagram pages link has been attatched above .
-						</p>
-	   				</div>
+							<p>It is a custom apparel merchandise Indian startup , I am amongst one of the 3 co-founder
+								, The whole page was initially designed by me and , now we have interns under me
+								updating the page constantly .</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<!-- <div class="timeline-block">
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Event Head ( Technical Dept. )</h3>
+							<p>2019</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>
+								<u>
+									<a target="_blank"
+										href="https://instagram.com/azionare_loyola?utm_medium=copy_link"> Azionare </a>
+								</u> &
+								<u>
+									<a target="_blank" href="https://instagram.com/etrix2019?utm_medium=copy_link">
+										Etrix </a>
+								</u> ( Loyola School jsr )
+							</h4>
+							<p>
+								Azionare is an Inter School Cultural Event organized by Loyola School , Etrix is an
+								intra school Tech Fest organized by Loyola School , I and my team with me as the head ,
+								being the director of Computer Club of Loyola School had the incharge of handling the
+								technical department of the event like designing posters brochures , editing videos ,
+								the instagram pages link has been attatched above .
+							</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<!-- <div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-graduation-cap"></i>
@@ -423,143 +455,151 @@
 
 	   			</div> /timeline-block -->
 
-   			</div> <!-- /timeline-wrap -->   			
+				</div> <!-- /timeline-wrap -->
 
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-   	
-   	<div class="row resume-timeline">
+			</div> <!-- /col-twelve -->
 
-   		<div class="col-twelve resume-header">
+		</div> <!-- /resume-timeline -->
 
-   			<h2>Education</h2>
+		<div class="row resume-timeline">
 
-   		</div> <!-- /resume-header -->
+			<div class="col-twelve resume-header">
 
-   		<div class="col-twelve">
+				<h2>Education</h2>
 
-   			<div class="timeline-wrap">
+			</div> <!-- /resume-header -->
 
-   				<div class="timeline-block">
+			<div class="col-twelve">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+				<div class="timeline-wrap">
 
-	   				<div class="timeline-header">
-	   					<h3>Bachelors Degree</h3>
-	   					<p>Sept 2020 - Present (2024)</p>
-	   				</div>
+					<div class="timeline-block">
 
-	   				<div class="timeline-content">
-	   					<h4>
-								   <a target="_blank" href="https://www.srmist.edu.in/"><u>SRM</u></a>-KTR-IST</a>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Bachelors Degree</h3>
+							<p>Sept 2020 - Present (2024)</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>
+								<a target="_blank" href="https://www.srmist.edu.in/"><u>SRM</u></a>-KTR-IST</a>
 							</h4>
-	   					<p>I am pursuing my Bachelors Degree in Technology , Computer Science Core from this University , it is a 4 yrs course , and I am expected to finish it by 2024.</p>
-	   				</div>
+							<p>I am pursuing my Bachelors Degree in Technology , Computer Science Core from this
+								University , it is a 4 yrs course , and I am expected to finish it by 2024.</p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
+					<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-	   				<div class="timeline-header">
-	   					<h3>Secondary Schooling</h3>
-	   					<p>2010 - 2020</p>
-	   				</div>
+						<div class="timeline-header">
+							<h3>Secondary Schooling</h3>
+							<p>2010 - 2020</p>
+						</div>
 
-	   				<div class="timeline-content">
-	   					<h4>
-							   <u>
-								<a target="_blank" href="https://loyolajsr.com/">
-									Loyola School 
-								</a>
-						   </u>( JSR ) </h4>
-	   					<p>I did my primary and secondary schooling from Loyola School Jamshedpur , ICSE board , scoring 90% in 10th and 85% in 12th . </p>
-	   				</div>
+						<div class="timeline-content">
+							<h4>
+								<u>
+									<a target="_blank" href="https://loyolajsr.com/">
+										Loyola School
+									</a>
+								</u>( JSR ) </h4>
+							<p>I did my primary and secondary schooling from Loyola School Jamshedpur , ICSE board ,
+								scoring 90% in 10th and 85% in 12th . </p>
+						</div>
 
-	   			</div> <!-- /timeline-block -->
-
-
-
-
+					</div> <!-- /timeline-block -->
 
 
 
 
-	   			</div> <!-- /timeline-block -->
 
-	   			<div class="timeline-block">
 
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
 
-		   				<div class="timeline-header">
-	   					<h3>Online Course and certifications</h3>
-	   					<p>Udemy</p>
-	   				</div>
 
-	   				<div class="timeline-content">
-								<div class="accordion" id="accordionExample">
+				</div> <!-- /timeline-block -->
 
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="headingOne">
-										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-																			Complete Python Bootcamp
+				<div class="timeline-block">
 
-										</button>
-										</h2>
-										<div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-										<div class="accordion-body">
-<img src="images/certificates/python.jpg"/>
-										</div>
-										</div>
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Online Course and certifications</h3>
+						<p>Udemy</p>
+					</div>
+
+					<div class="timeline-content">
+						<div class="accordion" id="accordionExample">
+
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Complete Python Bootcamp
+
+									</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+									data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<img src="images/certificates/python.jpg" />
 									</div>
+								</div>
+							</div>
 
-																		<div class="accordion-item">
-										<h2 class="accordion-header" id="headingOne2">
-										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
-																									The Complete 2022 Web<br> Development Bootcamp
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne2">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
+										The Complete 2022 Web<br> Development Bootcamp
 
 
-										</button>
-										</h2>
-										<div id="collapseOne2" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-										<div class="accordion-body">
-<img src="images/certificates/mern.jpg"/>
-										</div>
-										</div>
+									</button>
+								</h2>
+								<div id="collapseOne2" class="accordion-collapse collapse " aria-labelledby="headingOne"
+									data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<img src="images/certificates/mern.jpg" />
 									</div>
+								</div>
+							</div>
 
-									</div>
+						</div>
 
-																		<div class="accordion-item">
-										<h2 class="accordion-header" id="headingOne3">
-										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne">
-																													React - The Complete <br> React Guide
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne3">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne">
+									React - The Complete <br> React Guide
 
 
 
-										</button>
-										</h2>
-										<div id="collapseOne3" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-										<div class="accordion-body">
-<img src="images/certificates/React.jpg"/>
-										</div>
-										</div>
-									</div>
-					   <p>       ... Many More in progress</p>
+								</button>
+							</h2>
+							<div id="collapseOne3" class="accordion-collapse collapse " aria-labelledby="headingOne"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<img src="images/certificates/React.jpg" />
+								</div>
+							</div>
+						</div>
+						<p> ... Many More in progress</p>
 
-									</div>
+					</div>
 
- <!-- </div> /timeline-block -->
+					<!-- </div> /timeline-block -->
 
-	   			 <!-- <div class="timeline-block">
+					<!-- <div class="timeline-block">
 
 	   				<div class="timeline-ico">
 	   					<i class="fa fa-briefcase"></i>
@@ -575,15 +615,15 @@
 	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
 	   				</div> -->
 
-	   			<!-- </div> /timeline-block --> 
+					<!-- </div> /timeline-block -->
 
-   			<!-- </div> /timeline-wrap   			 -->
+					<!-- </div> /timeline-wrap   			 -->
 
-   		<!-- </div> /col-twelve -->
-   		
-   	<!-- </div> /resume-timeline -->
-		
-	</section> 
+					<!-- </div> /col-twelve -->
+
+					<!-- </div> /resume-timeline -->
+
+	</section>
 
 
 	<!-- Portfolio Section
@@ -591,560 +631,608 @@
 	<section id="portfolio">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Works.</h1>
 
-   			<p class="lead">Below are the list of few of my Projects .</p>
+				<p class="lead">Below are the list of few of my Projects .</p>
 
-   		</div>   		
-   	</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   	<div class="row portfolio-content">
+		<div class="row portfolio-content">
 
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-					        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/zigyP.jpg" alt="Zigy">
-	               	<a href="#zigy" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Zigy</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Custom Apparel E-Commerce Site
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/zigyP.jpg" alt="Zigy">
+							<a href="#zigy" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Zigy</h3>
+										<span class="folio-types">
+											Custom Apparel E-Commerce Site
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
 
 
 
 					<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
 						<div class="bgrid folio-item">
-	   <div class="item-wrap">
-		   <img src="images/chatApp.png" alt="ChatApp">
-		   <a href="#chatapp" class="overlay">              		                  
-			 <div class="folio-item-table">
-				 <div class="folio-item-cell">
-					 <h3 class="folio-title">Chat App</h3>	     					    
-							 <span class="folio-types">
-								  Live Working Chat App
-						   </span>		     		
-						</div> 	                      	
-			 </div>                    
-		  </a>
-	   </div>
-		</div> <!-- /folio-item -->
-
-
-		<div class="bgrid folio-item">
-			<div class="item-wrap">
-				<img src="images/calculator.png" alt="Liberty">
-			   <a href="#calc" class="overlay">	                  	           
-				  <div class="folio-item-table">
-					  <div class="folio-item-cell">
-								 <h3 class="folio-title">Calculator</h3>	     					    
-								   <span class="folio-types">
-									   Calculator built from scratch
-								 </span>
-					  </div>	                      	
-				  </div>                    
-			   </a>
-			</div>	               
-			 </div> <!-- /folio-item -->
-
-
-
-
-
-
-			 <div class="bgrid folio-item">
-				<div class="item-wrap">
-					<img src="images/paintApp.png" alt="paint">
-				   <a href="#paint" class="overlay">	                  	           
-					  <div class="folio-item-table">
-						  <div class="folio-item-cell">
-									 <h3 class="folio-title">Paint</h3>	     					    
-									   <span class="folio-types">
-										   Paint App using React
-									 </span>
-								 </div>	                      	
-					  </div>                    
-				   </a>
-				</div>	               
-				 </div> <!-- /folio-item -->
-
-
-				 <div class="bgrid folio-item">
-					<div class="item-wrap">
-						<img src="images/3d.png" alt="paint">
-					   <a href="#3d" class="overlay">	                  	           
-						  <div class="folio-item-table">
-							  <div class="folio-item-cell">
-										 <h3 class="folio-title">3D Portfolio (beta)</h3>	     					    
-										   <span class="folio-types">
-											   3D site
-										 </span>
-									 </div>	                      	
-						  </div>                    
-					   </a>
-					</div>	               
-					 </div> <!-- /folio-item -->
-					
-
-				 <div class="bgrid folio-item">
-					<div class="item-wrap">
-						<img src="images/blog.png" alt="Lighthouse">
-					   <a href="#blog" class="overlay">             		                  
-						  <div class="folio-item-table">
-							  <div class="folio-item-cell">
-								  <h3 class="folio-title">Blog</h3>	     					    
-										  <span class="folio-types">
-											   Blog Site , With Backend and Database
-										</span>		     		
-									 </div> 	                      	
-						  </div>                    
-					   </a>
-					</div>
-					 </div> <!-- /folio-item -->
-
-
-
-					 <div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/todolist.png" alt="Salad">
-						   <a href="#todo" class="overlay">
-							  <div class="folio-item-table">
-								  <div class="folio-item-cell">
-									  <h3 class="folio-title">Todolist</h3>	     					    
-											  <span class="folio-types">
-												   Todolist With Backend and Database
-											</span>		     		
-										 </div>	                      	
-							  </div>                    
-						   </a>
-						</div>
-						 </div> <!-- /folio-item -->  
-
-
-
-
-
-
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/drum.png" alt="Salad">
-	                  <a href="#drum" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Drum</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Drum Simulator
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
-
-
-					
-						            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/simon.png" alt="Salad">
-	                  <a href="#simon" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Simon</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Simon Game
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
-
-
-
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/tic.jpg" alt="Liberty">
-						   <a href="#tic" class="overlay">	                  	           
-							  <div class="folio-item-table">
-								  <div class="folio-item-cell">
-											 <h3 class="folio-title">TicTacToe</h3>	     					    
-											   <span class="folio-types">
-												   Tic Tac Toe Game
-											 </span>
-										 </div>	                      	
-							  </div>                    
-						   </a>
-						</div>	               
-						 </div> <!-- /folio-item -->
-		
-	
-					<div class="bgrid folio-item">
-					   <div class="item-wrap">
-						   <img src="images/dice.png"alt="Clouds">
-						  <a href="#dice" class="overlay">             		                  
-							 <div class="folio-item-table">
-								 <div class="folio-item-cell">
-									 <h3 class="folio-title">Dice</h3>	     					    
-											 <span class="folio-types">
-												  Dice Game
-										   </span>		     		
-										</div> 	                      	
-							 </div>                    
-						  </a>
-					   </div>
+							<div class="item-wrap">
+								<img src="https://user-images.githubusercontent.com/74867817/156640369-8837a44c-ba8f-4c59-b76c-396fa5b6fe7c.png" alt="ChatApp">
+								<a href="#bank" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Banking App</h3>
+											<span class="folio-types">
+												Banking App with Tailwind CSS and Backend
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
 						</div> <!-- /folio-item -->
-					
+
+
+
+					<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/chatApp.png" alt="ChatApp">
+								<a href="#chatapp" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Chat App</h3>
+											<span class="folio-types">
+												Live Working Chat App
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/calculator.png" alt="Liberty">
+								<a href="#calc" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Calculator</h3>
+											<span class="folio-types">
+												Calculator built from scratch
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
 
 
 
 
-	            <!-- modal popups - begin
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/paintApp.png" alt="paint">
+								<a href="#paint" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Paint</h3>
+											<span class="folio-types">
+												Paint App using React
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/3d.png" alt="paint">
+								<a href="#3d" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">3D Portfolio (beta)</h3>
+											<span class="folio-types">
+												3D site
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/blog.png" alt="Lighthouse">
+								<a href="#blog" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Blog</h3>
+											<span class="folio-types">
+												Blog Site , With Backend and Database
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/todolist.png" alt="Salad">
+								<a href="#todo" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Todolist</h3>
+											<span class="folio-types">
+												Todolist With Backend and Database
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+
+
+
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/drum.png" alt="Salad">
+								<a href="#drum" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Drum</h3>
+											<span class="folio-types">
+												Drum Simulator
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/simon.png" alt="Salad">
+								<a href="#simon" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Simon</h3>
+											<span class="folio-types">
+												Simon Game
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/tic.jpg" alt="Liberty">
+								<a href="#tic" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">TicTacToe</h3>
+											<span class="folio-types">
+												Tic Tac Toe Game
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/dice.png" alt="Clouds">
+								<a href="#dice" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Dice</h3>
+											<span class="folio-types">
+												Dice Game
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+
+
+
+
+						<!-- modal popups - begin
 	            ============================================================= -->
-	            <div id="zigy" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-							<object data="https://zigy.in" width="550" height="400">
-								<embed src="https://zigy.in" width="550" height="400"> </embed>
-								Error: Embedded data could not be displayed.
-							</object>
-				     	</div>      	
+						<div id="zigy" class="popup-modal slider mfp-hide">
 
-					   <div class="description-box">
-					      <h4>Zigy.in</h4>		      
-					      <p>
-							  Apparel E-commerce site for custom designs
-						  </p>
+							<div class="media">
+								<object data="https://zigy.in" width="550" height="400">
+									<embed src="https://zigy.in" width="550" height="400"> </embed>
+									Error: Embedded data could not be displayed.
+								</object>
+							</div>
 
-					      <div class="categories">Full Stack Development</div>			               
-					   </div>
+							<div class="description-box">
+								<h4>Zigy.in</h4>
+								<p>
+									Apparel E-commerce site for custom designs
+								</p>
 
-			         <div class="link-box">
-			            <a target="_blank" href="http://https://zigy.in">Open</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
+								<div class="categories">Full Stack Development</div>
+							</div>
 
-					
-				   </div> 
+							<div class="link-box">
+								<a target="_blank" href="http://https://zigy.in">Open</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
 
 
+						</div>
 
 
-				   <div id="chatapp" class="popup-modal slider mfp-hide">	
 
-					<div class="media">
-						<img src="images/chatApp.png" alt="" srcset="">
-					   <!-- <object data="https://zigy.in" width="550" height="400">
-						   <embed src="https://zigy.in" width="550" height="400"> </embed>
-						   Error: Embedded data could not be displayed.
-					   </object> -->
-					</div>      	
+						<div id="bank" class="popup-modal slider mfp-hide">
 
-				  <div class="description-box">
-					 <h4>Chat App</h4>		      
-					 <p>
-						 Real Time Chatting App
-					 </p>
+							<div class="media">
+								<object data="https://protected-wave-98167.herokuapp.com/" width="550" height="400">
+									<embed src="https://protected-wave-98167.herokuapp.com/" width="550" height="400"> </embed>
+									Error: Embedded data could not be displayed.
+								</object>
+							</div>
 
-					 <div class="categories">React and Socket.io</div>			               
-				  </div>
+							<div class="description-box">
+								<h4>Banking App</h4>
+								<p>
+									The Sparks Foundation Banking App
+								</p>
 
-				<div class="link-box">
-				   <a target="_blank" href="">Open</a>
-					 <a href="#" class="popup-modal-dismiss">Close</a>
-				</div>		      
+								<div class="categories">MERN Stack</div>
+							</div>
 
-			  </div> 
+							<div class="link-box">
+								<a target="_blank" href="https://protected-wave-98167.herokuapp.com/">Open</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
 
+						</div>
 
-			  <div id="paint" class="popup-modal slider mfp-hide">	
 
-				<div class="media">
-					<object data="https://aryansingh920.github.io/reactPaint/" width="550" height="400">
-						<embed src="https://aryansingh920.github.io/reactPaint/" width="550" height="400"> </embed>
-						Error: Embedded data could not be displayed.
-					</object>
-				</div>      	
 
-			  <div class="description-box">
-				 <h4>Paint App</h4>		      
-				 <p>
-					 Paint App
-				 </p>
+						<div id="chatapp" class="popup-modal slider mfp-hide">
 
-				 <div class="categories">React.js</div>	
-				 <div class="link-box">
-					<a target="_blank" href="https://aryansingh920.github.io/reactPaint/">Open</a>
-					  <a href="#" class="popup-modal-dismiss">Close</a>
-				 </div>			               
-			  </div>
+							<div class="media">
+								<img src="images/chatApp.png" alt="" srcset="">
+								<object data="https://aryansingh920.github.io/chatApp" width="550" height="400">
+									<embed src="https://aryansingh920.github.io/chatApp" width="550" height="400"> </embed>
+									Error: Embedded data could not be displayed.
+								</object>
+							</div>
 
+							<div class="description-box">
+								<h4>Chat App</h4>
+								<p>
+									Real Time Chatting App
+								</p>
 
-				   <div id="tic" class="popup-modal slider mfp-hide">	
+								<div class="categories">React and Socket.io</div>
+							</div>
 
-					<div class="media">
-					   <object data="https://tic-tac-toe-aryan125.web.app/" width="550" height="400">
-						   <embed src="https://tic-tac-toe-aryan125.web.app/" width="550" height="400"> </embed>
-						   Error: Embedded data could not be displayed.
-					   </object>
-					</div>      	
+							<div class="link-box">
+								<a target="_blank" href="https://aryansingh920.github.io/chatApp">Open</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
 
-				  <div class="description-box">
-					 <h4>Tic Tac Toe</h4>		      
-					 <p>
-						 Tic Tac Toe Game
-					 </p>
+						</div>
 
-					 <div class="categories">Front End Development</div>			               
-				  </div>
 
-				<div class="link-box">
-				   <a target="_blank" href="https://tic-tac-toe-aryan125.web.app/">Open</a>
-					 <a href="#" class="popup-modal-dismiss">Close</a>
-				</div>		      
+						<div id="paint" class="popup-modal slider mfp-hide">
 
-			  </div> 
+							<div class="media">
+								<object data="https://aryansingh920.github.io/reactPaint/" width="550" height="400">
+									<embed src="https://aryansingh920.github.io/reactPaint/" width="550" height="400">
+									</embed>
+									Error: Embedded data could not be displayed.
+								</object>
+							</div>
 
+							<div class="description-box">
+								<h4>Paint App</h4>
+								<p>
+									Paint App
+								</p>
 
+								<div class="categories">React.js</div>
+								<div class="link-box">
+									<a target="_blank" href="https://aryansingh920.github.io/reactPaint/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
+							</div>
 
 
-			  <div id="3d" class="popup-modal slider mfp-hide">	
+							<div id="tic" class="popup-modal slider mfp-hide">
 
-				<div class="media">
-				   <object data="https://conscious-fire.surge.sh/" width="550" height="400">
-					   <embed src="https://conscious-fire.surge.sh/" width="550" height="400"> </embed>
-					   Error: Embedded data could not be displayed.
-				   </object>
-				</div>      	
+								<div class="media">
+									<object data="https://tic-tac-toe-aryan125.web.app/" width="550" height="400">
+										<embed src="https://tic-tac-toe-aryan125.web.app/" width="550" height="400">
+										</embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-			  <div class="description-box">
-				 <h4>3D Portfolio (Beta) </h4>		      
-				 <p>
-					 3D portfolio built with three.js and vite
-				 </p>
+								<div class="description-box">
+									<h4>Tic Tac Toe</h4>
+									<p>
+										Tic Tac Toe Game
+									</p>
 
-				 <div class="categories">Three.js</div>			               
-			  </div>
+									<div class="categories">Front End Development</div>
+								</div>
 
-			<div class="link-box">
-			   <a target="_blank" href="https://conscious-fire.surge.sh/"">Open</a>
-				 <a href="#" class="popup-modal-dismiss">Close</a>
-			</div>		      
+								<div class="link-box">
+									<a target="_blank" href="https://tic-tac-toe-aryan125.web.app/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
-		  </div> 
+							</div>
 
 
 
 
-			  <div id="calc" class="popup-modal slider mfp-hide">	
 
-				<div class="media">
-				   <object data="https://aryansingh920.github.io/calculatorJS/" width="550" height="400">
-					   <embed src="https://aryansingh920.github.io/calculatorJS/" width="550" height="400"> </embed>
-					   Error: Embedded data could not be displayed.
-				   </object>
-				</div>      	
+							<div id="3d" class="popup-modal slider mfp-hide">
 
-			  <div class="description-box">
-				 <h4>Calculator</h4>		      
-				 <p>
-					 Calculator App
-				 </p>
+								<div class="media">
+									<object data="https://conscious-fire.surge.sh/" width="550" height="400">
+										<embed src="https://conscious-fire.surge.sh/" width="550" height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-				 <div class="categories">Front End Development</div>			               
-			  </div>
+								<div class="description-box">
+									<h4>3D Portfolio (Beta) </h4>
+									<p>
+										3D portfolio built with three.js and vite
+									</p>
 
-			<div class="link-box">
-			   <a target="_blank" href="https://aryansingh920.github.io/calculatorJS/">Open</a>
-				 <a href="#" class="popup-modal-dismiss">Close</a>
-			</div>		      
+									<div class="categories">Three.js</div>
+								</div>
 
-		  </div>
+								<div class="link-box">
+									<a target="_blank" href="https://conscious-fire.surge.sh/"">Open</a>
+				 <a href=" #" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
 
-		  <div id="dice" class="popup-modal slider mfp-hide">	
 
-			<div class="media">
-			   <object data="https://dice-aryan.web.app/" width="550" height="400">
-				   <embed src="https://dice-aryan.web.app/" width="550" height="400"> </embed>
-				   Error: Embedded data could not be displayed.
-			   </object>
-			</div>      	
 
-		  <div class="description-box">
-			 <h4>Dice</h4>		      
-			 <p>
-				 Dice Game
-			 </p>
+							<div id="calc" class="popup-modal slider mfp-hide">
 
-			 <div class="categories">Front End Development</div>			               
-		  </div>
+								<div class="media">
+									<object data="https://aryansingh920.github.io/calculatorJS/" width="550"
+										height="400">
+										<embed src="https://aryansingh920.github.io/calculatorJS/" width="550"
+											height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-		<div class="link-box">
-		   <a target="_blank" href="https://dice-aryan.web.app/">Open</a>
-			 <a href="#" class="popup-modal-dismiss">Close</a>
-		</div>		      
+								<div class="description-box">
+									<h4>Calculator</h4>
+									<p>
+										Calculator App
+									</p>
 
-	  </div>
+									<div class="categories">Front End Development</div>
+								</div>
 
+								<div class="link-box">
+									<a target="_blank" href="https://aryansingh920.github.io/calculatorJS/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
 
-	  <div id="blog" class="popup-modal slider mfp-hide">	
 
-		<div class="media">
-		   <object data="https://dry-journey-48460.herokuapp.com/" width="550" height="400">
-			   <embed src="https://dry-journey-48460.herokuapp.com/" width="550" height="400"> </embed>
-			   Error: Embedded data could not be displayed.
-		   </object>
-		</div>      	
+							<div id="dice" class="popup-modal slider mfp-hide">
 
-	  <div class="description-box">
-		 <h4>Blog</h4>		      
-		 <p>
-	 Blog App
-		 </p>
+								<div class="media">
+									<object data="https://dice-aryan.web.app/" width="550" height="400">
+										<embed src="https://dice-aryan.web.app/" width="550" height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-		 <div class="categories">Backend Development</div>			               
-	  </div>
+								<div class="description-box">
+									<h4>Dice</h4>
+									<p>
+										Dice Game
+									</p>
 
-	<div class="link-box">
-	   <a target="_blank" href="https://dry-journey-48460.herokuapp.com/">Open</a>
-		 <a href="#" class="popup-modal-dismiss">Close</a>
-	</div>		      
+									<div class="categories">Front End Development</div>
+								</div>
 
-  </div>
+								<div class="link-box">
+									<a target="_blank" href="https://dice-aryan.web.app/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
 
 
-  <div id="drum" class="popup-modal slider mfp-hide">	
 
-	<div class="media">
-	   <object data="https://drum-kit-e8b6d.web.app/" width="550" height="400">
-		   <embed src="https://drum-kit-e8b6d.web.app/" width="550" height="400"> </embed>
-		   Error: Embedded data could not be displayed.
-	   </object>
-	</div>      	
+							<div id="blog" class="popup-modal slider mfp-hide">
 
-  <div class="description-box">
-	 <h4>Drum Kit</h4>		      
-	 <p>
-		 Drum kit app 
-	 </p>
+								<div class="media">
+									<object data="https://dry-journey-48460.herokuapp.com/" width="550" height="400">
+										<embed src="https://dry-journey-48460.herokuapp.com/" width="550" height="400">
+										</embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-	 <div class="categories">Front End Development</div>			               
-  </div>
+								<div class="description-box">
+									<h4>Blog</h4>
+									<p>
+										Blog App
+									</p>
 
-<div class="link-box">
-   <a target="_blank" href="https://drum-kit-e8b6d.web.app/">Open</a>
-	 <a href="#" class="popup-modal-dismiss">Close</a>
-</div>		      
+									<div class="categories">Backend Development</div>
+								</div>
 
-</div>
+								<div class="link-box">
+									<a target="_blank" href="https://dry-journey-48460.herokuapp.com/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
 
-<div id="simon" class="popup-modal slider mfp-hide">	
 
-	<div class="media">
-	   <object data="https://simongame-45c93.web.app/" width="550" height="400">
-		   <embed src="https://simongame-45c93.web.app/" width="550" height="400"> </embed>
-		   Error: Embedded data could not be displayed.
-	   </object>
-	</div>      	
 
-  <div class="description-box">
-	 <h4>Simon Game</h4>		      
-	 <p>
-		 Simon Game App
-	 </p>
+							<div id="drum" class="popup-modal slider mfp-hide">
 
-	 <div class="categories">Front End Development</div>			               
-  </div>
+								<div class="media">
+									<object data="https://drum-kit-e8b6d.web.app/" width="550" height="400">
+										<embed src="https://drum-kit-e8b6d.web.app/" width="550" height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-<div class="link-box">
-   <a target="_blank" href="https://simongame-45c93.web.app/">Open</a>
-	 <a href="#" class="popup-modal-dismiss">Close</a>
-</div>		      
+								<div class="description-box">
+									<h4>Drum Kit</h4>
+									<p>
+										Drum kit app
+									</p>
 
-</div>
+									<div class="categories">Front End Development</div>
+								</div>
 
+								<div class="link-box">
+									<a target="_blank" href="https://drum-kit-e8b6d.web.app/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
-<div id="todo" class="popup-modal slider mfp-hide">	
 
-	<div class="media">
-	   <object data="https://desolate-journey-69175.herokuapp.com/" width="550" height="400">
-		   <embed src="https://desolate-journey-69175.herokuapp.com/" width="550" height="400"> </embed>
-		   Error: Embedded data could not be displayed.
-	   </object>
-	</div>      	
 
-  <div class="description-box">
-	 <h4>Todolist</h4>		      
-	 <p>
-		 Todolist App
-	 </p>
+							<div id="simon" class="popup-modal slider mfp-hide">
 
-	 <div class="categories">Back End Development</div>			               
-  </div>
+								<div class="media">
+									<object data="https://simongame-45c93.web.app/" width="550" height="400">
+										<embed src="https://simongame-45c93.web.app/" width="550" height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-<div class="link-box">
-   <a target="_blank" href="https://desolate-journey-69175.herokuapp.com/">Open</a>
-	 <a href="#" class="popup-modal-dismiss">Close</a>
-</div>		      
+								<div class="description-box">
+									<h4>Simon Game</h4>
+									<p>
+										Simon Game App
+									</p>
 
-</div>
+									<div class="categories">Front End Development</div>
+								</div>
 
+								<div class="link-box">
+									<a target="_blank" href="https://simongame-45c93.web.app/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
 
+							</div>
 
-<div id="cv" class="popup-modal slider mfp-hide">	
 
-	<div class="media">
-		<embed
-		src="cv.pdf"
-		type="application/pdf"
-		frameBorder="0"
-		scrolling="auto"
-		height="100%"
-		width="100%"
-	></embed>
-	</div>      	
 
-  <div class="description-box">
-	 <h4>Tic Tac Toe</h4>		      
-	 <p>
-		 Apparel E-commerce site for custom designs
-	 </p>
+							<div id="todo" class="popup-modal slider mfp-hide">
 
-	 <div class="categories">Web Development</div>			               
-  </div>
+								<div class="media">
+									<object data="https://desolate-journey-69175.herokuapp.com/" width="550"
+										height="400">
+										<embed src="https://desolate-journey-69175.herokuapp.com/" width="550"
+											height="400"> </embed>
+										Error: Embedded data could not be displayed.
+									</object>
+								</div>
 
-<div class="link-box">
-   <a target="_blank" href="https://desolate-journey-69175.herokuapp.com/">Open</a>
-	 <a href="#" class="popup-modal-dismiss">Close</a>
-</div>		      
+								<div class="description-box">
+									<h4>Todolist</h4>
+									<p>
+										Todolist App
+									</p>
 
-</div>
+									<div class="categories">Back End Development</div>
+								</div>
 
-				   <!-- <div id="modal-02" class="popup-modal slider mfp-hide">	
+								<div class="link-box">
+									<a target="_blank" href="https://desolate-journey-69175.herokuapp.com/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
+
+							</div>
+
+
+
+							<div id="cv" class="popup-modal slider mfp-hide">
+
+								<div class="media">
+									<embed src="cv.pdf" type="application/pdf" frameBorder="0" scrolling="auto"
+										height="100%" width="100%"></embed>
+								</div>
+
+								<div class="description-box">
+									<h4>Tic Tac Toe</h4>
+									<p>
+										Apparel E-commerce site for custom designs
+									</p>
+
+									<div class="categories">Web Development</div>
+								</div>
+
+								<div class="link-box">
+									<a target="_blank" href="https://desolate-journey-69175.herokuapp.com/">Open</a>
+									<a href="#" class="popup-modal-dismiss">Close</a>
+								</div>
+
+							</div>
+
+							<!-- <div id="modal-02" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
@@ -1164,7 +1252,7 @@
 
 				   </div> /modal-02 -->
 
-				   <!-- <div id="modal-03" class="popup-modal slider mfp-hide">	
+							<!-- <div id="modal-03" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
@@ -1184,7 +1272,7 @@
 
 				   </div> /modal-03 -->
 
-				   <!-- <div id="modal-04" class="popup-modal slider mfp-hide">	
+							<!-- <div id="modal-04" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
@@ -1204,7 +1292,7 @@
 
 				   </div> /modal-04 -->
 
-				   <!-- <div id="modal-05" class="popup-modal slider mfp-hide">	
+							<!-- <div id="modal-05" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
@@ -1224,7 +1312,7 @@
 
 				   </div> /modal-05 -->
 
-				   <!-- <div id="modal-06" class="popup-modal slider mfp-hide">	
+							<!-- <div id="modal-06" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
 				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
@@ -1245,16 +1333,16 @@
 				   </div> /modal-06 -->
 
 
-				   <!-- modal popups - end
+							<!-- modal popups - end
 	            ============================================================= -->
 
-	         </div> <!-- /portfolio-wrapper --> 
+						</div> <!-- /portfolio-wrapper -->
 
-   		</div>  <!-- /twelve -->   
+					</div> <!-- /twelve -->
 
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
+				</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
 
 
 	<!-- CTA Section
@@ -1270,20 +1358,20 @@
 		      <p class="lead">
 		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
 				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
-				<!-- </p> -->
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+	<!-- </p> -->
 
-				<!-- <div class="action">
+	<!-- <div class="action">
 			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
 		      </div>		     	 -->
 
-   		</div> -->
+	</div> -->
 
-   	</div> <!-- /cta-content -->
+	</div> <!-- /cta-content -->
 
-   </section> <!-- /cta --> 
+	</section> <!-- /cta -->
 
-	
+
 	<!-- services Section
    ================================================== -->
 	<section id="services">
@@ -1291,116 +1379,119 @@
 		<div class="overlay"></div>
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
+				<h5>Services</h5>
+				<h1>What Can I Do For You?</h1>
 
-   			<p class="lead">I Would Love to work on the below mentioned domains , apart from these I would also like to explore new fields</p>
+				<p class="lead">I Would Love to work on the below mentioned domains , apart from these I would also like
+					to explore new fields</p>
 
-   		</div>   		
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   	<div class="row services-content">
+		<div class="row services-content">
 
-   		<div id="owl-slider" class="owl-carousel services-list">
-
-	      	<div class="service">	
-
-	      		<span class="icon"><i class="icon-earth"></i></span>            
-
-	            <div class="service-content">	
-
-	            	 <h3>Full Stack Web Development</h3>
-
-		            <p class="desc">Full stack Web Development , using MongoDB , Express.js , Node.js , react.js
-	         		</p>
-	         		
-	         	</div> 	         	 
-
-				</div> <!-- /service -->
-
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">	
-
-	            	<h3>Front End Development</h3>  
-
-		            <p class="desc">HTML5 , CSS3 , JS , jQuery , React.js , Bootstrap
-	         		</p>
-
-	            </div>	                          
-
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-	            <div class="service-content">
-
-	            	<h3>Python</h3>
-
-		            <p class="desc">I know a lot of python modules , including openCV , Django , numpy , Pandas , Scikit , and can learn any as required by the project withing a given stipulated time 
-	        			</p> 
-
-	            </div> 	            	               
-
-			   </div> <!-- /service -->
+			<div id="owl-slider" class="owl-carousel services-list">
 
 				<div class="service">
 
-					<span class="icon"><i class="icon-toggles"></i></span>	              
+					<span class="icon"><i class="icon-earth"></i></span>
 
-	            <div class="service-content">
+					<div class="service-content">
 
-	            	<h3>Java , C++</h3>
+						<h3>Full Stack Web Development</h3>
 
-		            <p class="desc">Implementation of JAVA
-	         		</p> 
-	         		
-	            </div>                
+						<p class="desc">Full stack Web Development , using MongoDB , Express.js , Node.js , react.js
+						</p>
+
+					</div>
 
 				</div> <!-- /service -->
 
-			   <div class="service">
+				<div class="service">
 
-			   	<span class="icon"><i class="icon-image"></i></span>	            
+					<span class="icon"><i class="icon-window"></i></span>
 
-	            <div class="service-content">
+					<div class="service-content">
 
-	            	<h3>Graphics Design / UI & UX</h3>
+						<h3>Front End Development</h3>
 
-		            <p class="desc">Adobe Photoshop , Adobe Premier Pro , Adobe After Effects , Cinema 4D , Filmora Wondershare , Adobe XD
-	        			</p> 
+						<p class="desc">HTML5 , CSS3 , JS , jQuery , React.js , Bootstrap
+						</p>
 
-	            </div>	               
+					</div>
 
-			   </div> <!-- /service -->
+				</div> <!-- /service -->
 
-			   <div class="service">
+				<div class="service">
 
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+					<span class="icon"><i class="icon-paint-brush"></i></span>
 
-	            <div class="service-content">
+					<div class="service-content">
 
-	            	 <h3>Consultancy & Management</h3>
+						<h3>Python</h3>
 
-		            <p class="desc">
-						Computer Science , IT field and Technical Aspect
-	        			</p> 
-	        			
-	            </div>	               
+						<p class="desc">I know a lot of python modules , including openCV , Django , numpy , Pandas ,
+							Scikit , and can learn any as required by the project withing a given stipulated time
+						</p>
 
-			   </div> <!-- /service -->
+					</div>
 
-	      </div> <!-- /services-list -->
-   		
-   	</div> <!-- /services-content -->
-		
-	</section> <!-- /services -->	
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>
+
+					<div class="service-content">
+
+						<h3>Java , C++</h3>
+
+						<p class="desc">Implementation of JAVA
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-image"></i></span>
+
+					<div class="service-content">
+
+						<h3>Graphics Design / UI & UX</h3>
+
+						<p class="desc">Adobe Photoshop , Adobe Premier Pro , Adobe After Effects , Cinema 4D , Filmora
+							Wondershare , Adobe XD
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-chat"></i></span>
+
+					<div class="service-content">
+
+						<h3>Consultancy & Management</h3>
+
+						<p class="desc">
+							Computer Science , IT field and Technical Aspect
+						</p>
+
+					</div>
+
+				</div> <!-- /service -->
+
+			</div> <!-- /services-list -->
+
+		</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
 
 
 	<!-- stats Section
@@ -1426,9 +1517,9 @@
 							Projects Completed
 						</h5>
 
-					</div> <!-- /stat -->					
+					</div> <!-- /stat -->
 
-					<!-- <div class="bgrid stat">
+	<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-users"></i>
@@ -1444,7 +1535,7 @@
 
 					</div> /stat -->
 
-					<!-- <div class="bgrid stat">
+	<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-badge"></i>
@@ -1458,9 +1549,9 @@
 							Awards Received
 						</h5>
 
-					</div> <!-- /stat -->									
+					</div> <!-- /stat -->
 
-					<!-- <div class="bgrid stat">
+	<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-light-bulb"></i>
@@ -1476,7 +1567,7 @@
 
 					</div> /stat -->
 
-					<!-- <div class="bgrid stat">
+	<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-cup"></i>
@@ -1490,9 +1581,9 @@
 							Coffee Cups
 						</h5>
 
-					</div> /stat --> 
+					</div> /stat -->
 
-					<!-- <div class="bgrid stat">
+	<!-- <div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-clock"></i>
@@ -1508,36 +1599,38 @@
 
 					</div> /stat -->
 
-				<!-- </div> /stats-list -->
+	<!-- </div> /stats-list -->
 
-			<!-- </div> /twelve -->
-		<!-- </div> /row -->
+	<!-- </div> /twelve -->
+	<!-- </div> /row -->
 
-	<!-- </section> /stats --> 
+	<!-- </section> /stats -->
 
-	
-   <!-- contact
+
+	<!-- contact
    ================================================== -->
 	<section id="contact">
 
 		<div class="row section-intro">
-   		<div class="col-twelve">
+			<div class="col-twelve">
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
 
-   			<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
+				<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
 
-   		</div> 
-   	</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
 
-   	<div class="row contact-form">
+		<div class="row contact-form">
 
-   		<div class="col-twelve">
-			<iframe id="gForm" src="https://docs.google.com/forms/d/e/1FAIpQLScrXbdtAip0OnamoHU5c0BxGmzMEUacqdsuBxAwMZaDsQG8zA/viewform?embedded=true" width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            <!-- form -->
-            <!-- <form name="contactForm" id="contactForm" method="post" action="">
+			<div class="col-twelve">
+				<iframe id="gForm"
+					src="https://docs.google.com/forms/d/e/1FAIpQLScrXbdtAip0OnamoHU5c0BxGmzMEUacqdsuBxAwMZaDsQG8zA/viewform?embedded=true"
+					width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				<!-- form -->
+				<!-- <form name="contactForm" id="contactForm" method="post" action="">
       			<fieldset>
 
                   <div class="form-field">
@@ -1567,26 +1660,26 @@
       			</fieldset>
       		</form> Form End -->
 
-            <!-- contact-warning -->
-            <!-- <div id="message-warning">            	
+				<!-- contact-warning -->
+				<!-- <div id="message-warning">            	
             </div>            
             <!-- contact-success -->
-      		<!-- <div id="message-success"> -->
-               <!-- <i class="fa fa-check"></i>Your message was sent, thank you!<br> -->
-      		<!-- </div> -->
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
+				<!-- <div id="message-success"> -->
+				<!-- <i class="fa fa-check"></i>Your message was sent, thank you!<br> -->
+				<!-- </div> -->
+			</div> <!-- /col-twelve -->
 
-   	<div class="row contact-info">
+		</div> <!-- /contact-form -->
 
-   		<div class="col-four tab-full">
+		<div class="row contact-info">
 
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
+			<div class="col-four tab-full">
 
-   			<!-- <h5>Where to find me</h5>
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<!-- <h5>Where to find me</h5>
 
    			<p>
             1600 Amphitheatre Parkway<br>
@@ -1594,135 +1687,146 @@
             94043 US
             </p> -->
 
-   		</div>
+			</div>
 
-   		<div class="col-four tab-full collapse">
+			<div class="col-four tab-full collapse">
 
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
 
 
-   		</div>
+			</div>
 
-   		<div class="col-four tab-full">
+			<div class="col-four tab-full">
 
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
-			   
-   			<h5>Email Me At</h5>
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
 
-   			<p>
-				<a style="color: white !important" href=mailto:aryansingh920@outlook.com>aryansingh920@outlook.com</a>
-				<br>
-				<a style="color:white !important" href=mailto:yoyoaryan920@gmail.com>yoyoaryan920@gmail.com</a>
-			   	<br>
-				   <a  style="color:white !important"href=mailto:as1190@srmist.edu.in>as1190@srmist.edu.in</a>
-				  	     
-			   </p>
+				<h5>Email Me At</h5>
 
-   			<h5>Text Me At</h5>
+				<p>
+					<a style="color: white !important"
+						href=mailto:aryansingh920@outlook.com>aryansingh920@outlook.com</a>
+					<br>
+					<a style="color:white !important" href=mailto:yoyoaryan920@gmail.com>yoyoaryan920@gmail.com</a>
+					<br>
+					<a style="color:white !important" href=mailto:as1190@srmist.edu.in>as1190@srmist.edu.in</a>
 
-   			<p><br>
-				<a style="color:white !important" href="sms:+919363352893"> Phone: (+91) 93633 52893 </a>
+				</p>
 
-			   	<!-- Mobile: (+63) 555 0100<br>
+				<h5>Text Me At</h5>
+
+				<p><br>
+					<a style="color:white !important" href="sms:+919363352893"> Phone: (+91) 93633 52893 </a>
+
+					<!-- Mobile: (+63) 555 0100<br>
 			     	Fax: (+63) 555 0101 -->
-			   </p>
+				</p>
 
-			   <br>
-			   <ul style=" list-style: none; display: flex;flex-wrap: wrap;justify-content: center; margin-left:5px; margin-right:5px;padding-left: 5px;padding-right: 5px;">        
-				<li class="p-2"><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; " class="fad fa-envelope "></i></a></li>
-				<li class="p-2"><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i style="font-size: 4.5rem; " class="fab fa-linkedin-in "></i></a></li>
-				<li class="p-2"><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; " class="fab fa-medium-m "></i></a></li>
-				<li class="p-2"><a href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li>
-				<li class="p-2"><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; " class="fab fa-github"></i></a></li>
-			 </ul> <!-- /intro-social -->     
-			   <br>
-			   <span>© Copyright Aryan Singh 2021.</span> 
+				<br>
+				<ul
+					style=" list-style: none; display: flex;flex-wrap: wrap;justify-content: center; margin-left:5px; margin-right:5px;padding-left: 5px;padding-right: 5px;">
+					<li class="p-2"><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; "
+								class="fad fa-envelope "></i></a></li>
+					<li class="p-2"><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i
+								style="font-size: 4.5rem; " class="fab fa-linkedin-in "></i></a></li>
+					<li class="p-2"><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; "
+								class="fab fa-medium-m "></i></a></li>
+					<li class="p-2"><a
+							href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i
+								style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li>
+					<li class="p-2"><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; "
+								class="fab fa-github"></i></a></li>
+				</ul> <!-- /intro-social -->
+				<br>
+				<span>© Copyright Aryan Singh 2021.</span>
 
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
+			</div>
+
+		</div> <!-- /contact-info -->
+
 	</section> <!-- /contact -->
 
 	<nav class="fixed-bottom">
 		<a class="navbar-brand" href="#"><img class="m-0 p-0" src="logo.png" width="100px" alt=""></a>
 	</nav>
 	<!-- <nav style="left:0" class="navbar fixed-bottom"><img src="logo.png" alt=""></nav> -->
-   <!-- footer
+	<!-- footer
    ================================================== -->
 
-   <!-- <footer> -->
-     	<!-- <div class="row"> -->
+	<!-- <footer> -->
+	<!-- <div class="row"> -->
 
-     		<!-- <div class="col-six tab-full pull-right social"> -->
+	<!-- <div class="col-six tab-full pull-right social"> -->
 
-     			<!-- <ul class="footer-social">         -->
-					 <!-- <li><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; " class="fad fa-envelope "></i></a></li> -->
-         <!-- <li><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i style="font-size: 4.5rem; " class="fab fa-linkedin-in "></i></a></li> -->
-         <!-- <li><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; " class="fab fa-medium-m "></i></a></li> -->
-         <!-- <li><a href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li> -->
-         <!-- <li><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; " class="fab fa-github"></i></a></li> -->
-			   <!-- </ul>  -->
-	      		
-	      <!-- </div> -->
+	<!-- <ul class="footer-social">         -->
+	<!-- <li><a href=mailto:aryansingh920@outlook.com><i style="font-size: 4.5rem; " class="fad fa-envelope "></i></a></li> -->
+	<!-- <li><a href="https://www.linkedin.com/in/aryan-singh-axone125/"><i style="font-size: 4.5rem; " class="fab fa-linkedin-in "></i></a></li> -->
+	<!-- <li><a href="https://medium.com/@yoyoaryan920"><i style="font-size: 4.5rem; " class="fab fa-medium-m "></i></a></li> -->
+	<!-- <li><a href="https://join.slack.com/t/aryanportfolio/shared_invite/zt-p08w580n-tC1Qa3jf0GisxLgxYyrX6Q"><i style="font-size: 4.5rem; " class="fab fa-slack "></i></a></li> -->
+	<!-- <li><a href="https://github.com/aryansingh920"><i style="font-size: 4.5rem; " class="fab fa-github"></i></a></li> -->
+	<!-- </ul>  -->
 
-      	<!-- <div class="col-six tab-full"> -->
-	      	<!-- <div class="copyright"> -->
-		        	<!-- <span>© Copyright Aryan Singh 2021.</span>  -->
-		        	<!-- <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	 -->
-		         <!-- </div>		                   -->
-	      	<!-- </div> -->
+	<!-- </div> -->
 
-	      	<!-- <div id="go-top"> -->
-		         <!-- <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a> -->
-		      <!-- </div> -->
+	<!-- <div class="col-six tab-full"> -->
+	<!-- <div class="copyright"> -->
+	<!-- <span>© Copyright Aryan Singh 2021.</span>  -->
+	<!-- <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	 -->
+	<!-- </div>		                   -->
+	<!-- </div> -->
 
-      	<!-- </div> /row     	 -->
-   <!-- </footer>   -->
+	<!-- <div id="go-top"> -->
+	<!-- <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a> -->
+	<!-- </div> -->
 
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
+	<!-- </div> /row     	 -->
+	<!-- </footer>   -->
 
-   <!-- Java Script
-   ================================================== --> 
-   
-<!-- UIkit JS -->
-<script>
-	function myFunction() {
-		console.log("hello");
-		const form = document.getElementById("gForm");
-		var w = window.innerWidth;
-		var h = window.innerHeight;
-		console.log(w,h)
-		if(w>660){
-			form.style.width = "640";
-			form.style.height = "819";
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+
+	<!-- UIkit JS -->
+	<script>
+		function myFunction() {
+			console.log("hello");
+			const form = document.getElementById("gForm");
+			var w = window.innerWidth;
+			var h = window.innerHeight;
+			console.log(w, h)
+			if (w > 660) {
+				form.style.width = "640";
+				form.style.height = "819";
+			} else {
+				form.style.width = w - 100 + "px";
+				form.style.height = "819";
+			}
+
+			// var x = document.getElementById("myTopnav");
+			// if (x.className === "topnav") {
+			// 	x.className += " responsive";
+			// } else {
+			// 	x.className = "topnav";
+			// }
 		}
-		else{
-			form.style.width = w-100+"px";
-			form.style.height = "819";
-		}
-		
-		// var x = document.getElementById("myTopnav");
-		// if (x.className === "topnav") {
-		// 	x.className += " responsive";
-		// } else {
-		// 	x.className = "topnav";
-		// }
-	}
-</script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+	</script>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
